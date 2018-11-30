@@ -1,3 +1,10 @@
 # Vcode简单的验证码扩展
-使用过说明下次再说。。。
+
+include "./vendor/autoload.php";
+
+use VcodeName\Vcode;
+
+$code = new Vcode(150, 80, 6);
+$code->outimg();
+
 
