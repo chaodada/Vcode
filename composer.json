@@ -1,0 +1,19 @@
+{
+  "name": "chaodada/vcode",
+  "description": "验证码扩展",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "chaodada",
+      "email": "2167162990@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "VcodeName\\": "src/Vcode"
+    }
+  }
+}
